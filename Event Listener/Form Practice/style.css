@@ -1,0 +1,12 @@
+#form{
+    border: 5px groove orangered;
+    background-color: orangered;
+}
+fieldset{
+    border: 5px ridge orange;
+    margin: 5px;
+    background-image: repeating-linear-gradient(orange,yellow);
+}
+legend{
+    border: 5px ridge ;
+}
