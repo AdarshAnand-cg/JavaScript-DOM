@@ -1,0 +1,41 @@
+body{
+    width: 100vw; height: 100vh;
+    background-image: radial-gradient(grey,black);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.btn{
+    padding: 10px 20px;
+    border: 2px groove black;
+    border-radius: 10px;
+    background-image: linear-gradient(blue,rgb(0, 0, 0));
+    font-family: Algerian;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    width: fit-content;
+    
+}
+.btn:hover{
+    background-image: linear-gradient(rgb(4, 4, 162),rgb(96, 95, 95));
+}
+#btn1,#btn2{
+    display: flex;
+    width: fit-content;
+    padding: 10px 20px;
+    border: 2px groove black;
+    border-radius: 10px;
+    background-image: radial-gradient(rgb(119, 0, 255),rgb(0, 0, 0));
+    font-family: Algerian;
+    font-size: 15px;
+    color: white;
+    display: flex;
+}
+#btn1:hover,#btn2:hover{
+        background-image: radial-gradient(rgb(79, 3, 167),rgb(79, 3, 167));
+
+
+}
